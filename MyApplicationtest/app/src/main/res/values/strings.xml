@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Applicationtest</string>
+    <string name="nev_open">Open</string>
+    <string name="nev_close">Close</string>
+</resources>

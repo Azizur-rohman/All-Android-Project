@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string-array name="Categories">
+        <item>Calculator</item>
+        <item>Conveter</item>
+    </string-array>
+</resources>

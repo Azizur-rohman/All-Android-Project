@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1024139886296",
+    "firebase_url": "https://smart-health-prediction-2f12a.firebaseio.com",
+    "project_id": "smart-health-prediction-2f12a",
+    "storage_bucket": "smart-health-prediction-2f12a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024139886296:android:c39c814a64c83b8a59a1ad",
+        "android_client_info": {
+          "package_name": "com.example.smarthealthprediction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024139886296-v4lr0csq1hai8m2hvth6b0ac7hntrvg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarthealthprediction",
+            "certificate_hash": "a1c7cedf60a21a80e0fb823c460965c4cda833ec"
+          }
+        },
+        {
+          "client_id": "1024139886296-oahrb8kjr360jemveteb9l6fbuojsojq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnl1uwokT3Obt-bku1zvyIrJmkqkZcxpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024139886296-oahrb8kjr360jemveteb9l6fbuojsojq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

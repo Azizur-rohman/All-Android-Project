@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/aky_a">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Enter Temperature"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="319dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="243dp">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celsius"
+            android:checked="true"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:checked="false"
+            />
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/radiogroup"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:onClick="convert"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
